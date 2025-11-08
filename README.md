@@ -38,7 +38,7 @@ Homelab Insights is a Vite + React application that streams live telemetry from 
 
 ## Environment Variables
 
-Copy `.env.example` (or the snippet below) to `.env` inside `mini-project-2-3d/` and update the values:
+Copy `.env.example` (or the snippet below) to `.env` inside `mini-project-3/` and update the values:
 
 ```ini
 PORT=4100
@@ -51,7 +51,7 @@ JWT_EXPIRES=7d
 
 # Proxmox API configuration
 PROXMOX_API_BASE=https://192.168.137.x:8006/api2/json
-PROXMOX_API_TOKEN_ID=root@pam!apitest
+PROXMOX_API_TOKEN_ID=xxxx@pam!apitest // change to your proxmox api
 PROXMOX_API_TOKEN_SECRET=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 PROXMOX_DEFAULT_NODE=pve
 PROXMOX_DEFAULT_VMID=102
